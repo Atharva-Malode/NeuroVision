@@ -14,6 +14,7 @@
     "lucide-react": "^0.269.0",
     "postcss": "^8.4.28",
     "react": "^18.2.0",
+    "react-azure-maps": "^0.4.8",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0",
     "react-scroll": "^1.8.9"

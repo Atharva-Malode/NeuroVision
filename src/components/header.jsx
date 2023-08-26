@@ -64,7 +64,7 @@ export function Header() {
               <div className="px-5 pb-6 pt-5">
                 <div className="flex items-center justify-between">
                   <div className="inline-flex items-center space-x-2">
-                    {/* <img src="logo.svg" alt="Logo" className="h-8" /> */}
+                    <img src="logo.svg" alt="Logo" className="h-8" />
                   </div>
                   <div className="-mr-2">
                     <button

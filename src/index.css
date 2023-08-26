@@ -27,3 +27,12 @@ ul {
 button {
   cursor: pointer;
 }
+
+.map-container {
+  /* Use !important to force the height and width of the map */
+  height: 500px !important;
+  width: 800px !important;
+  /* Add a border and some margin */
+  border: 2px solid #ccc;
+  margin: 0 auto;
+}
