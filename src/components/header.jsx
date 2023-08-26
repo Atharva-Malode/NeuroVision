@@ -21,7 +21,7 @@ const menuItems = [
   },
 ];
 
-export function Header() {
+export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -36,11 +36,11 @@ export function Header() {
             to="/"
             className="font-bold flex items-center space-x-2 cursor-pointer"
           >
-            <img src="logo.svg" alt="Logo" className="h-10 cursor-pointer" />
-            <h1 className="text-xl md:text-3xl font-bold">BTS</h1>
+            <img src="ods.png" alt="Logo" className="h-10 cursor-pointer" />
+            <h1 className="text-xl md:text-3xl font-bold">ODS</h1>
           </Link>
         </div>
-        <nav className="hidden lg:block px-3 py-2 rounded-full">
+        <nav className="lg:block px-3 py-2 rounded-full">
           <ul className="inline-flex space-x-8">
             {menuItems.map((item) => (
               <li key={item.name}>
@@ -99,4 +99,4 @@ export function Header() {
   );
 }
 
-export default Header;
+export default Navbar;

@@ -7,7 +7,7 @@ export function Footer() {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-black sm:text-center">
             © {new Date().getFullYear()}
-            {" Bitcoin Token Standards"}
+            {"  Opthalimic Diesease Screening"}
             <Link
               activeClass="active"
               to={"home"}
