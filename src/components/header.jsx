@@ -9,7 +9,7 @@ const menuItems = [
   },
   {
     name: "About",
-    href: "about",
+    href: "/about",
   },
   {
     name: "Token Standards",
