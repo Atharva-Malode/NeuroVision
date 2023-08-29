@@ -4,10 +4,8 @@ import DefaultMap from "./AzureMap";
 const Doctors = () => {
 
     return(
-        <>
         <Maps/>
-        <DefaultMap/>
-        </>
+        // <DefaultMap/>
     );
 };
 export default Doctors;

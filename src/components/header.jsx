@@ -8,12 +8,12 @@ const menuItems = [
     href: "home",
   },
   {
-    name: "About",
-    href: "about",
+    name: "Consultant",
+    href: "Contact-nearest-consulant",
   },
   {
-    name: "Token Standards",
-    href: "token-standards",
+    name: "API",
+    href: "API plans",
   },
   {
     name: "Contact",
