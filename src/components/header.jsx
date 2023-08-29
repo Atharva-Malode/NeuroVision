@@ -12,8 +12,8 @@ const menuItems = [
     href: "Contact-nearest-consulant",
   },
   {
-    name: "API",
-    href: "API plans",
+    name: "About",
+    href: "/about",
   },
   {
     name: "Contact",
