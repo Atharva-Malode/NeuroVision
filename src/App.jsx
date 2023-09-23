@@ -3,6 +3,7 @@ import  { Navbar } from "./components/header";
 import Footer from "./components/footer";
 import Doctors from "./Pages/Doctors/index";
 import AboutUs from "./Pages/AboutUs/index";
+import Home from "./Pages/Home";
 function App() {
   return (
     <BrowserRouter>
@@ -12,6 +13,7 @@ function App() {
         <Route eaxct path="/about" element={<AboutUs/>}/>
         {/* <Route exact path="/" element={<Landing />} /> */}
         <Route exact path = "/Doctors" element = {<Doctors/>} />
+        <Route exact path = "/home" element = {<Home/>} />
       </Routes>
       <Footer />
       

@@ -1,9 +1,9 @@
-const Landing = () => {
+const Home = () => {
 
     return (
-        <div>
-            <h1>Landing Page</h1>
-        </div>
+        <section className="w-full bg-white" id="home">
+          
+        </section>
     );
 };
-export default Landing;
+export default Home;
