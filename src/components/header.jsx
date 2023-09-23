@@ -9,7 +9,7 @@ const menuItems = [
   },
   {
     name: "Consultant",
-    href: "Contact-nearest-consulant",
+    href: "/doctors",
   },
   {
     name: "About",

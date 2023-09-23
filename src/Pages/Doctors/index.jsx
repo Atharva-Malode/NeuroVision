@@ -1,5 +1,4 @@
 import Maps from "./Maps";
-import DefaultMap from "./AzureMap";
 
 const Doctors = () => {
 
