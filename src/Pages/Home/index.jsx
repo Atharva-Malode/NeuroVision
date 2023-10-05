@@ -1,16 +1,38 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const [selectedImage, setSelectedImage] = useState(null);
-  const Navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleImageChange = (e) => {
     const file = e.target.files[0];
     setSelectedImage(file);
 
-    // Navigate to the "Predict" component with the image data as a parameter
-    Navigate(`/predict?image=${URL.createObjectURL(file)}`);
+    // Create a FormData object and append the image file
+    const formData = new FormData();
+    formData.append("file", file);
+
+    // Make a POST request to the Flask API
+    fetch("https://opthalmic.azurewebsites.net/predict", {
+      method: "POST",
+      body: formData,
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        // Log the JSON output from the Flask API
+        console.log("Prediction:", data.prediction);
+        console.log("Predicted Probability:", data.predicted_probability);
+
+        // Get the image URL and pass it to the Predict component
+        const imageUrl = URL.createObjectURL(file);
+
+        // Navigate to the "Predict" component with image and prediction data as query parameters
+        navigate(`/predict?image=${imageUrl}&prediction=${data.prediction}&predicted_probability=${data.predicted_probability}`);
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
   };
 
   return (
@@ -44,23 +66,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
-// const Home = () => {
-
-//     return (
-        
-//       <div className="mx-auto pl-18 max-w-7xl h-full p-8 mt-20 flex justify-center items-center content-center">
-//       <div className="bg-white pl-8 rounded-lg shadow-lg flex-grow">
-//       <h1 className="text-2xl font-bold  text-black content-center">
-//          Methods
-//         </h1>
-//           <div className="px-6 py-4">
-//           {/* this container should be divided in two containers vertically parellel  */}
-//           </div>
-       
-//       </div>
-//     </div>
-//     );
-// };
-// export default Home;

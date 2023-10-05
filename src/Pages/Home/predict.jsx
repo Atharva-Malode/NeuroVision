@@ -4,6 +4,8 @@ import { useLocation } from "react-router-dom";
 const Predict = () => {
   const location = useLocation();
   const imageUrl = new URLSearchParams(location.search).get("image");
+  const prediction = new URLSearchParams(location.search).get("prediction");
+  const predictedProbability = new URLSearchParams(location.search).get("predicted_probability");
 
   return (
     <div className="flex flex-col justify-center items-center h-screen">
@@ -24,9 +26,14 @@ const Predict = () => {
         </div>
         <div className="flex-grow mt-4">
           <h1 className="text-black content-center mb-4 ml-10">
-            select the Disease you want to scan 
+            As per the fundus image you uploaded following are the results:
           </h1>
-          {/* Add any additional content on the right side */}
+          {prediction && predictedProbability && (
+            <div>
+              <p>Prediction: {prediction}</p>
+              <p>Predicted Probability: {predictedProbability}</p>
+            </div>
+          )}
         </div>
       </div>
     </div>

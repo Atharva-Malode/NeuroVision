@@ -5,6 +5,7 @@ import Doctors from "./Pages/Doctors/index";
 import AboutUs from "./Pages/AboutUs/index";
 import Home from "./Pages/Home";
 import Predict from "./Pages/Home/predict";
+import Subscription from "./Pages/subcription/index";
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ function App() {
         <Route exact path = "/Doctors" element = {<Doctors/>} />
         <Route exact path = "/home" element = {<Home/>} />
         <Route exact path = "/predict" element = {<Predict/>} />
+        <Route exact path = "/subscription" element = {<Subscription/>} />
       </Routes>
       <Footer />
       
