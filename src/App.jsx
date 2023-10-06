@@ -20,7 +20,6 @@ function App() {
         <Route exact path = "/subscription" element = {<Subscription/>} />
       </Routes>
       <Footer />
-      
     </BrowserRouter>
   );
 }
