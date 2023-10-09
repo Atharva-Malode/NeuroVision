@@ -37,7 +37,7 @@ export function Navbar() {
             to="/"
             className="font-bold flex items-center space-x-2 cursor-pointer"
           >
-            <img src="ods.png" alt="Logo" className="h-10 cursor-pointer" />
+            <img src="https://raw.githubusercontent.com/Atharva-Malode/ODS/master/assets/ods.png" alt="Logo" className="h-10 cursor-pointer" />
             <h1 className="text-xl md:text-3xl font-bold">ODS</h1>
           </Link>
         </div>
