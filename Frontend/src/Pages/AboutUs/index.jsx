@@ -6,7 +6,7 @@ const teamMembers = [
   {
     name: "Atharva Malode",
     designation: "Software Developer",
-    href: "/atharva.png",
+    href: "https://raw.githubusercontent.com/Atharva-Malode/ODS/master/assets/atharva.png",
     socialLinks: [
       { url: 'https://www.instagram.com/dhnyanesh_gajbhiye/', icon: faContactCard },
       { url: 'mailto:atharvamalode21@gmail.com', icon: faEnvelope },
@@ -16,7 +16,7 @@ const teamMembers = [
   {
     name: "Ayush Wase",
     designation: "Data Scientist",
-    href: "./frontend/public/ayush.png",
+    href: "https://raw.githubusercontent.com/Atharva-Malode/ODS/master/assets/ayush.png",
     socialLinks: [
       { url: 'https://www.instagram.com/dhnyanesh_gajbhiye/', icon: faContactCard },
       { url: 'mailto:ayushwase@gmail.com', icon: faEnvelope },
@@ -26,7 +26,7 @@ const teamMembers = [
   {
     name: "Chaitanya Wankhede",
     designation: "Software Developer",
-    href: "./Frontend/chaitanya.png",
+    href: "https://raw.githubusercontent.com/Atharva-Malode/ODS/master/assets/chaitanya.png",
     socialLinks: [
       { url: 'mailto:chaitanyawankhede705@gmail.com', icon: faContactCard },
       { url: 'https://www.linkedin.com/in/chaitanya-wankhede-7117b6227/', icon: faEnvelope },
@@ -36,7 +36,7 @@ const teamMembers = [
   {
     name: "Dhnyanesh Gajbhiye",
     designation: "Data Scientist",
-    href: "/dhnyanesh.png",
+    href: "https://raw.githubusercontent.com/Atharva-Malode/ODS/master/assets/dhnyanesh.png",
     socialLinks: [
       { url: 'https://www.instagram.com/dhnyanesh_gajbhiye/', icon: faContactCard },
       { url: 'mailto:dngajbhiye001@gmail.com', icon: faEnvelope },
