@@ -26,7 +26,7 @@ const teamMembers = [
   {
     name: "Chaitanya Wankhede",
     designation: "Software Developer",
-    href: "/chaitanya.png",
+    href: "./Frontend/chaitanya.png",
     socialLinks: [
       { url: 'mailto:chaitanyawankhede705@gmail.com', icon: faContactCard },
       { url: 'https://www.linkedin.com/in/chaitanya-wankhede-7117b6227/', icon: faEnvelope },

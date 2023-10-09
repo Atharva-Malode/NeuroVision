@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
+import ods from "../public/ods.png";
 
 const menuItems = [
   {
@@ -80,7 +81,7 @@ export function Navbar() {
               <div className="px-5 pb-6 pt-5">
                 <div className="flex items-center justify-between">
                   <div className="inline-flex items-center space-x-2">
-                    <img src="ods.png" alt="Logo" className="h-8" />
+                   <img src={ods} alt="Logo" className="h-8" />
                   </div>
                   <div className="-mr-2">
                     <button
