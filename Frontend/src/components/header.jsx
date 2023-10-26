@@ -17,8 +17,8 @@ const menuItems = [
     href: "/subscription",
   },
   {
-    name: "about us",
-    href: "/about",
+    name: "Our Team",
+    href: "/our-team",
   },
 ];
 
