@@ -61,6 +61,9 @@ const Home = () => {
           </div>
         )}
       </div>
+      <div class="mt-4 bg-orange-100  text-orange-700 p-2 rounded-lg">
+      <p><strong class="font-bold">Note: </strong> Only upload Fundus Images</p>
+      </div>
     </div>
   );
 };
