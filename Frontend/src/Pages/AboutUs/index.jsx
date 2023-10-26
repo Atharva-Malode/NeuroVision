@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faContactCard, faLightbulb, faLink } from '@fortawesome/free-solid-svg-icons'
 const teamMembers = [
   {
-    name: "Atharva Malode",
-    designation: "Software Developer",
-    href: "https://raw.githubusercontent.com/Atharva-Malode/ODS/master/assets/atharva.png",
+    name: "Dr. Mangala Madankar",
+    designation: "Project Guide",
+    href: "",
     socialLinks: [
       { url: 'https://www.instagram.com/dhnyanesh_gajbhiye/', icon: faContactCard },
       { url: 'mailto:atharvamalode21@gmail.com', icon: faEnvelope },
@@ -34,13 +34,13 @@ const teamMembers = [
     ],
   },
   {
-    name: "Dhnyanesh Gajbhiye",
-    designation: "Data Scientist",
-    href: "https://raw.githubusercontent.com/Atharva-Malode/ODS/master/assets/dhnyanesh.png",
+    name: "Atharva Malode",
+    designation: "Software Developer",
+    href: "https://raw.githubusercontent.com/Atharva-Malode/ODS/master/assets/atharva.png",
     socialLinks: [
       { url: 'https://www.instagram.com/dhnyanesh_gajbhiye/', icon: faContactCard },
-      { url: 'mailto:dngajbhiye001@gmail.com', icon: faEnvelope },
-      { url: 'https://www.linkedin.com/in/dhnyanesh-gajbhiye-1b1b3a1b2', icon: faLink },
+      { url: 'mailto:atharvamalode21@gmail.com', icon: faEnvelope },
+      { url: 'https://www.linkedin.com/in/atharva-malode/', icon: faLink },
     ],
   },
 ];
