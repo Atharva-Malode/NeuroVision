@@ -1,6 +1,6 @@
-# ODS - Ophthalmic Disease Screening
+# NeuroVision - Ophthalmic Disease Screening
 
-ODS (Ophthalmic Disease Screening) is a cutting-edge application that uses deep learning models to analyze fundus images and predict common eye diseases such as diabetes, cataract, and glaucoma. The project is implemented using React.js for the frontend and utilizes VGG19 and ResNet model architectures for accurate disease predictions. The model is deployed on Azure and served as an endpoint in the React.js application.
+NeuroVision (Ophthalmic Disease Screening) is a cutting-edge application that uses deep learning models to analyze fundus images and predict common eye diseases such as diabetes, cataract, and glaucoma. The project is implemented using React.js for the frontend and utilizes VGG19 and ResNet model architectures for accurate disease predictions. The model is deployed on Azure and served as an endpoint in the React.js application.
 
 ## Links
 
